@@ -4,7 +4,7 @@ import RegisterPage from './pages/RegisterPage'
 import LoginPage from './pages/LoginPage'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from './pages/HomePage';
-import AuthLayout from './layout/authLayout';
+import AuthLayout from './layout/AuthLayout.jsx';
 import GuestLayout from './layout/GuestLayout';
 
 
