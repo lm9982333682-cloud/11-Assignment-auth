@@ -37,13 +37,11 @@ const LoginPage = () => {
                 setInput(inputName);
                 setIsLogin(true);
                 navigate('/home')
-
-
             }
 
         } catch (err) {
-
-            toast.error(err.response)
+            console.log(err.response.data.message)
+            toast.error(err.response.data.message)
 
         }
 
